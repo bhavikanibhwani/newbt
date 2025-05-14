@@ -1,0 +1,55 @@
+/* src/Home.css
+/* .home {
+    background-color: rgba(243, 243, 250, 0.961);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+} */
+ .home {
+    background-color: #0f1116; /* Change to any color you like */
+    min-height: 100vh; /* Ensure it covers full height */
+    min-width: 140vh;
+    margin-top:200px;
+    text-align: center;
+    color: white;
+    font-family: KaTeX_Main;
+  }
+.heading {
+    color: white;
+}
+.button-container {
+    margin: 20px 0;
+}
+
+.btn {
+    margin: 30px 10px 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5c05c;
+    color: white;
+    transition: background-color 0.3s;
+    width:fit-content;
+}
+
+.btn:hover {
+    background-color: #ed7571;
+}
+.co{
+    color: #ed7571;
+}
+ul {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #1a1c23;
+}
+
+li {
+    font-size: 18px;
+}  
+p{
+    padding: 20px;
+    background-color: #1a1c23;
+}
